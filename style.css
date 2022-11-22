@@ -1,0 +1,239 @@
+*{
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+vertical-align: baseline;
+}
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background-color: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.navbar{
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo{
+    margin-left: 30px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a{
+    display: block;
+    padding: 23px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover{
+    background-color: #3f3f3f;
+}
+
+header{
+    height: 60vh !important;
+    background:url(lig.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.contenido-header1{
+    height: 60vh !important;
+    background:url(ligasanta.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.contenido-header2{
+    height: 60vh !important;
+    background:url(seseria.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.contenido-header3{
+    height: 60vh !important;
+    background:url(liguee1.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.contenido-header4{
+    height: 60vh !important;
+    background:url(bunde.png) no-repeat center;
+    background-size: cover;
+}
+
+.contenido-header5{
+    height: 60vh !important;
+    background:url(prepre.png) no-repeat center;
+    background-size: cover;
+}
+
+
+.titulo{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+}
+
+p{
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: white;
+}
+
+.contenido{
+height: 50vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.contenido1{
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+   
+}
+
+.estas1{
+    width: 550px;
+    height: 246px;
+    background-color: red;
+    border: #fff;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.estas{
+    margin-left: -800px;
+}
+
+
+.ima2{
+    width: 600px;
+    height: 245px;
+    margin-left: 650px;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.tabla1{
+width: 800px;
+height: 502px;
+border:black;
+border-style: solid;
+border-width: 3px;
+margin-left: 200px;
+}
+
+.estas2{
+    margin-right: -600px;
+    margin-top: -310px;
+}
+
+
+
+.contenido{
+    padding: 30px;
+    background-color: #1f1d1d;
+}
+
+.contenido1{
+    padding: 30px;
+    background-color: #1f1d1d;
+}
+.box-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.box-container.box{
+    height: 11px;
+    width: 17px;
+    background: #000000;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow:0 40px 34px rgba(0,0,0,.5);
+    margin: 5px;
+}
+
+h3{
+    color: white;
+}
+
+
+.box{
+    width: 250px;
+}
+
+
+.box a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.box:hover{
+    text-decoration: double;
+    background-color: #000000;
+    text-transform: uppercase;
+    
+}
+
+
+footer {
+    background-color:steelblue;
+    color: white;
+    padding: 3rem;
+}
+
+footer section {
+float: right;
+}
+
+h5 {
+margin-left: -1000px;
+}
+footer a {
+ color: white;
+ text-decoration: none;
+transition: color 0.3 ease;
+}
+
+footer a:hover {
+    color:cornflowerblue;
+    text-decoration: underline;
+}
+
+
